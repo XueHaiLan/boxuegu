@@ -1,0 +1,125 @@
+@import '/public/style/list.wxss';
+.list-header-left{
+    height: 52rpx;
+    width: 182rpx;
+}
+.list-header-left > image{
+    height: 100%;
+    width: 100%;
+}
+.list-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30rpx 20rpx;
+    background: white;
+}
+.list-picture{
+    height: 340rpx;
+    width: 750rpx;
+}
+.list-picture > image{
+    height: 100%;
+    width: 100%;
+}
+
+.list-course{
+    display: flex;
+    justify-content: space-around;
+    background:white;
+    padding: 40rpx 0;
+    margin-bottom: 30rpx;
+}
+.list-detail{
+    background: white;
+}
+.list-detail-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 25rpx 30rpx;
+}
+.list-detail-top-left{
+    font-size: 16px;
+    padding-left: 10rpx;
+    border-left:5rpx solid blue;
+}
+.list-recom{
+    background: white;
+}
+.list-course-small-top{
+    height: 74rpx;
+    width: 74rpx;
+    margin: 0 auto 10rpx;
+}
+.list-course-small-top > image{
+    height: 100%;
+    width: 100%;
+}
+.list-detail-button{
+    display: flex;
+    justify-content: space-between;
+}
+.list-detail-button-left{
+    height: 230rpx;
+    width: 369rpx;
+    border-radius: 5rpx;
+}
+.list-detail-button-left > image{
+    height: 100%;
+    width: 100%;
+    border-radius: 10rpx;
+}
+.list-detail-button{
+    padding: 25rpx 30rpx;
+}
+.list-detail-button-right{
+    padding-left: 30rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 366rpx;
+}
+.list-detail-button-right-button{
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+}
+.list-detail-button-right-top{
+    font-size: 14px;
+}
+.list-detail-button-right-center{
+    font-size: 10px;
+    color: #8f9273;
+}
+.list-detail-button-right-button-m{
+    color: red;
+}
+.list-recom-button0{
+    padding: 0 30rpx;
+}
+.list-recom-button-pic{
+    width: 329rpx;
+    height: 230rpx;
+}
+.list-recom-button-pic > image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10rpx;
+}
+.list-recom-button-txt{
+    width: 329rpx;
+}
+.list-recom-button-txt-but{
+    display: flex;
+    justify-content: space-between;
+}
+.list-recom-button0{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20rpx;
+}
+.list-recom-button-txt-top{
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

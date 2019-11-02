@@ -1,0 +1,109 @@
+
+<view class="list-header">
+    <view class="list-header-left">
+        <image src="https://m.boxuegu.com/_nuxt/img/logo.4ba874d.png" />
+    </view>
+    <view class="iconfont icon-RectangleCopy list-header-right"></view>
+</view>
+<view class="list-picture">
+    <image src="https://attachment-center.boxuegu.com/data/picture/online/2019/10/24/19/40c1905db99b4644a04fec33fc8031d1.jpg" />
+</view>
+<view class="list-course">
+        <block wx:for="{{small}}" wx:key="smalls">
+    <view class="list-course-small">
+            <view class="list-course-small-top">
+                <image src="{{item.jiuye}}" />
+            </view>
+            <view class="list-course-small-button">{{item.txt}}</view>
+    </view>
+    </block>
+</view>
+<view class="list-detail">
+    <view class="list-detail-top">
+        <view class="list-detail-top-left">就业课</view>
+        <view class="list-detail-top-right">更多</view>
+    </view>
+    <block wx:for="{{jiuye}}" wx:key="jiuyes">
+    <view class="list-detail-button">
+        <view class="list-detail-button-left">
+            <image src="{{item.pic}}" />
+        </view>
+        <view class="list-detail-button-right">
+            <view class="list-detail-button-right-top">{{item.top}}</view>
+            <view class="list-detail-button-right-center">{{item.center}}</view>
+            <view class="list-detail-button-right-button">
+                <view >{{item.button1}}</view>
+                <view class="list-detail-button-right-button-m">{{item.button2}}</view>
+            </view>
+        </view>
+    </view>
+    </block>
+</view>
+<view class="list-recom">
+    <view class="list-detail-top">
+        <view class="list-detail-top-left">推荐课程</view>
+        <view class="list-detail-top-right">更多</view>
+    </view>
+    <block wx:for="{{recom}}" wx:key="recoms">
+    <view class="list-recom-button0">
+        <view class="list-recom-button">
+            <view class="list-recom-button-pic">
+                <image src="{{item.pic1}}" />
+            </view>
+            <view class="list-recom-button-txt">
+                <view class="list-recom-button-txt-top">{{item.top1}}</view>
+                <view class="list-recom-button-txt-but">
+                    <view >{{item.stu1}}</view>
+                    <view class="list-detail-button-right-button-m">{{item.man1}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="list-recom-button">
+            <view class="list-recom-button-pic">
+                <image src="{{item.pic2}}" />
+            </view>
+            <view class="list-recom-button-txt">
+                <view class="list-recom-button-txt-top">{{item.top2}}</view>
+                <view class="list-recom-button-txt-but">
+                    <view >{{item.stu2}}</view>
+                    <view class="list-detail-button-right-button-m">{{item.man2}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    </block>
+</view>
+<view class="list-recom">
+    <view class="list-detail-top">
+        <view class="list-detail-top-left">免费课程</view>
+        <view class="list-detail-top-right">更多</view>
+    </view>
+    <block wx:for="{{free}}" wx:key="freess">
+    <view class="list-recom-button0">
+        <view class="list-recom-button">
+            <view class="list-recom-button-pic">
+                <image src="{{item.pic1}}" />
+            </view>
+            <view class="list-recom-button-txt">
+                <view class="list-recom-button-txt-top">{{item.top1}}</view>
+                <view class="list-recom-button-txt-but">
+                    <view >{{item.stu1}}</view>
+                    <view class="list-detail-button-right-button-m">{{item.man1}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="list-recom-button">
+            <view class="list-recom-button-pic">
+                <image src="{{item.pic2}}" />
+            </view>
+            <view class="list-recom-button-txt">
+                <view class="list-recom-button-txt-top">{{item.top2}}</view>
+                <view class="list-recom-button-txt-but">
+                    <view >{{item.stu2}}</view>
+                    <view class="list-detail-button-right-button-m">{{item.man2}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    </block>
+</view>
